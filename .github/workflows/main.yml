@@ -37,7 +37,7 @@ jobs:
         tenant-id: ${{env.TENANT_ID}}
         name: ${{github.event.inputs.environment_name}}
         region: "unitedstates"
-        currency: "INR"
+        currency: "USD"
         type: "Developer"
         
   
