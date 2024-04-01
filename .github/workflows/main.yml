@@ -35,8 +35,9 @@ jobs:
         app-id: ${{env.CLIENT_ID}}
         client-secret: ${{ secrets.POWERPLATFORMSECRET }}
         tenant-id: ${{env.TENANT_ID}}
-        name: ${{parameters.environment_name}}
+        name: ${{github.event.inputs.environment_name}}
         region: "unitedstates"
         currency: "INR"
+        type: "Developer"
         
   
