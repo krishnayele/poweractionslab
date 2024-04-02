@@ -17,7 +17,7 @@ env:
   TENANT_ID: 'd827019b-deb5-4062-b4c4-7d2468db09c8'
 
 jobs:
-  export-from-dev:
+  create-new-env:
     runs-on: windows-latest
     # or you can say runs-on: ubuntu-latest
     env:
