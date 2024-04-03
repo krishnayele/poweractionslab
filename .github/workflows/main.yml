@@ -32,8 +32,8 @@ jobs:
       uses: microsoft/powerplatform-actions/create-environment@v0
       with:
         
-        user-name: krishnayele@learno365k.onmicrosoft.com
-        password-secret: ${{secrets.PASSWORD}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{secrets.POWERPLATFORMSECRET}}
         tenant-id: ${{env.TENANT_ID}}
         name: ${{github.event.inputs.environment_name}}
         region: "india"
