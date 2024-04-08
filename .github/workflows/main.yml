@@ -13,8 +13,8 @@ on:
       
 env:
 #edit your values here
-  CLIENT_ID: '5bf40af2-d4e1-4c07-b53b-5684b7fdc804'
-  TENANT_ID: 'd827019b-deb5-4062-b4c4-7d2468db09c8'
+  CLIENT_ID: '76e1074e-e126-4b65-83fa-c043b039ca27'
+  TENANT_ID: 'cd41dae2-7921-4c3a-a9a3-56161d080b65'
 
 jobs:
   create-new-env:
