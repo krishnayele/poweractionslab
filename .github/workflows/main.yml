@@ -38,6 +38,6 @@ jobs:
         name: ${{github.event.inputs.environment_name}}
         region: "india"
         currency: "INR"
-        type: "Trial"
+        type: "Sandbox"
         
   
