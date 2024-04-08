@@ -36,8 +36,8 @@ jobs:
         client-secret: ${{secrets.POWERPLATFORMSECRET}}
         tenant-id: ${{env.TENANT_ID}}
         name: ${{github.event.inputs.environment_name}}
-        region: "india"
-        currency: "INR"
+        region: "europe"
+        currency: "EUR"
         type: "Sandbox"
         
   
